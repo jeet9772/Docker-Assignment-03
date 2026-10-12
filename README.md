@@ -62,6 +62,9 @@ var hostname = os.hostname();
 console.log("hello from " + hostname);
 ```
 
+<img width="1440" height="900" alt="Screenshot 2026-10-12 at 9 21 25 AM" src="https://github.com/user-attachments/assets/a469ca80-c068-4c64-9b7c-a40f9b86b066" />
+
+
 ### Explanation
 
 - `require("os")` imports Node.js's built-in operating system module.
@@ -100,6 +103,9 @@ WORKDIR /app
 CMD ["node", "index.js"]
 ```
 
+<img width="1440" height="900" alt="Screenshot 2026-10-12 at 9 22 51 AM" src="https://github.com/user-attachments/assets/4241ae70-7b75-4f28-a263-0158ce3eba78" />
+
+
 ### Dockerfile Instructions Explained
 
 **1. FROM alpine:latest**
@@ -134,6 +140,8 @@ Run the following command from the directory containing the Dockerfile:
 docker build -t hello:v0.1 .
 ```
 
+<img width="1440" height="900" alt="Screenshot 2026-10-12 at 9 23 35 AM" src="https://github.com/user-attachments/assets/694cb708-a158-4984-ac36-4c2ae604922c" />
+
 ### Command Explanation
 
 - `docker build` builds a Docker image.
@@ -158,6 +166,8 @@ Run:
 ```bash
 docker images
 ```
+<img width="1440" height="900" alt="Screenshot 2026-10-12 at 9 24 36 AM" src="https://github.com/user-attachments/assets/d72628eb-a9b6-41f1-a14c-7dc790e0c9eb" />
+
 
 Confirm that the image named `hello` has the tag `v0.1`.
 
